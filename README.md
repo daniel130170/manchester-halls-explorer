@@ -1,6 +1,6 @@
 # University of Manchester Halls Overview
 
-**➡️ For the live interactive experience, please visit: [https://daniel130170.github.io/uomanchester-halls-viewer/](https://daniel130170.github.io/uomanchester-halls-viewer/)**
+**➡️ For the live interactive experience, click on [here](https://daniel130170.github.io/manchester-halls-explorer/)**
 
 ---
 

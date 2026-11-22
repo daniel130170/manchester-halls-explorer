@@ -459,8 +459,9 @@
             if (mapElement) {
                 if (map) { map.remove(); map = null; }
                 map = L.map(mapElement, { preferCanvas: true, attributionControl: false }).setView([53.459, -2.225], 13);
-                L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}{r}.png', {
-                    maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
+                L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    maxZoom: 19,
+                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
                 }).addTo(map);
                 L.control.attribution({position: 'bottomleft', prefix: ''}).addTo(map);
 
